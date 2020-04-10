@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css?family=Inconsolata");
+
+/* Color Palette
+    #54B4C4
+    #C46F5E
+    #784940
+    #785F28
+    #C49F4B
+*/
+body {
+    background-image: url(Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading {
+    color: white;
+    font-family: "Inconsolata";
+    font-size: 70px;
+}
+
+.wip {
+    color: #784940;
+}
