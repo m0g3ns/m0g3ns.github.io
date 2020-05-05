@@ -30,7 +30,9 @@
 
 .ocean {
     min-height: 600px;
+    height: 600px;
     height: 90vh;
+    width: 100%;
     width: 100vw;
     position: absolute;
     top: 0;
@@ -41,7 +43,7 @@
 
 .buoy {
     position: absolute;
-    top: 250px;
+    top: 150px;
     width: 20px;
     height: 20px;
     border-radius: 10px;
@@ -64,8 +66,11 @@
 .wave {
     background: url(wave.svg) repeat-x;
     position: absolute;
+    top: 600px;
     top: max(89.5vh, 580px);
+    width: 100%;
     width: 100vw;
+    height: 20%;
     height: 20vh;
     min-height: 140px;
     max-height: 198px;
@@ -99,22 +104,30 @@
 }
 
 .beach {
+    height: 400px;
     height: 50vh;
+    left: 0px;
     min-height: 400px;
+    width: 100%;
     width: 100vw;
     background-color: #d09d36;
     position: absolute;
+    top: 600px;
     top: max(90vh, 600px);
     z-index: 0;
 }
 
 .DLRG {
     position: absolute;
-    top: max(20vh, 134px);
+    top: 144px;
+    top: max(20vh, 144px);
+    left: 10%;
     left: 10vw;
     background: url(DLRG_Flagge_2.png) no-repeat;
     background-size: contain;
+    width: 10%;
     width: 10vw;
+    height: 10%;
     height: 10vh;
     min-height: 65px;
     cursor: pointer;
@@ -123,11 +136,15 @@
 
 .DLRG_RIGHT {
     position: absolute;
-    top: max(20vh, 134px);
+    top: 144px;
+    top: max(20vh, 144px);
+    right: 10%;
     right: 10vw;
     background: url(DLRG_Flagge_2.png) no-repeat;
     background-size: contain;
+    width: 10%;
     width: 10vw;
+    height: 10%;
     height: 10vh;
     min-height: 65px;
     cursor: pointer;
@@ -136,11 +153,15 @@
 
 .board {
     position: absolute;
-    top: max(20vh, 134px);
+    top: 144px;
+    top: max(20vh, 144px);
+    right: 40%;
     right: 40vw;
     background: url(board.png) no-repeat;
     background-size: contain;
+    width: 3%;
     width: 3vw;
+    height: 18%;
     height: 18vh;
     min-height: 65px;
     cursor: pointer;
@@ -149,18 +170,26 @@
 
 .grass-beach {
     background-image: linear-gradient(#d09d36, rgb(65, 152, 10));
+    height: 10%;
     height: 10vh;
     min-height: 70px;
+    width: 100%;
     width: 100vw;
     position: absolute;
+    top: 1000px;
     top: max(139.5vh, 1000px);
+    left: 0px;
 }
 
 .grass {
     background-color: rgb(65, 152, 10);
+    width: 100%;
     width: 100vw;
+    height: 40%;
     height: 40vh;
     min-height: 300px;
     position: absolute;
+    top: 1068px;
     top: max(148vh, 1068px);
+    left: 0px;
 }
