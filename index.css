@@ -141,11 +141,11 @@
 .board {
     position: absolute;
     top: max(20vh, 134px);
-    right: 60vw;
+    right: 50vw;
     background: url(board.png) no-repeat;
     background-size: contain;
-    width: 2vw;
-    height: 12vh;
+    width: 3vw;
+    height: 18vh;
     min-height: 65px;
     cursor: pointer;
     z-index: 1;
