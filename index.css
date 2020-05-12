@@ -67,7 +67,7 @@
     background: url(wave.svg) repeat-x;
     position: absolute;
     top: 600px;
-    top: max(89.5vh, 580px);
+    top: max(89.5vh, 600px);
     width: 100%;
     width: 100vw;
     height: 20%;
